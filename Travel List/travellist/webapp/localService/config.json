@@ -1,0 +1,11 @@
+[
+  {
+
+    "urlPath": "/sap/opu/odata4/sap/zui_fe_travel_001210_o4/srvd/sap/zui_fe_travel_001210_o4/0001",
+    "name": "",
+    "metadataPath": "./metadata.xml",
+    "mockdataPath": "./data",
+    "generateMockData": true
+  }
+]
+  

@@ -1,0 +1,802 @@
+[
+    {
+        "TravelUUID": "6ba098af-1a35-5522-b65c-a516923b9c24",
+        "TravelID": "TravelI1",
+        "AgencyID": "Agenc1",
+        "AgencyName": "AgencyName1",
+        "CustomerID": "Custo1",
+        "LastName": "LastName1",
+        "BeginDate": "1984-01-12",
+        "EndDate": "1975-04-17",
+        "BookingFee": 10.224,
+        "TotalPrice": 1.405,
+        "CurrencyCode": "Curr1",
+        "Description": "Description1",
+        "OverallStatus": "1",
+        "TravelStatusText": "TravelStatusText1",
+        "OverallStatusCriticality": 230,
+        "CreatedBy": "CreatedBy1",
+        "CreatedAt": "1999-03-28T01:10:10",
+        "LastChangedBy": "LastChanged1",
+        "LastChangedAt": "1986-07-27T05:39:25",
+        "LocalLastChangedAt": "1983-10-07T23:26:14",
+        "HasDraftEntity": false,
+        "DraftEntityCreationDateTime": "1988-04-26T10:57:35",
+        "DraftEntityLastChangeDateTime": "2008-01-10T07:11:15",
+        "HasActiveEntity": true,
+        "IsActiveEntity": true,
+        "SAP__Messages": [
+            {
+                "code": "code6",
+                "message": "message6",
+                "target": "target6",
+                "additionalTargets": [
+                    "additionalTargets6"
+                ],
+                "transition": false,
+                "numericSeverity": 234,
+                "longtextUrl": "longtextUrl6"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "94aa8955-55ff-5586-840a-063892056984",
+        "TravelID": "TravelI2",
+        "AgencyID": "Agenc2",
+        "AgencyName": "AgencyName2",
+        "CustomerID": "Custo2",
+        "LastName": "LastName2",
+        "BeginDate": "2007-03-24",
+        "EndDate": "2010-01-06",
+        "BookingFee": 5.685,
+        "TotalPrice": 14.068,
+        "CurrencyCode": "Curr2",
+        "Description": "Description2",
+        "OverallStatus": "2",
+        "TravelStatusText": "TravelStatusText2",
+        "OverallStatusCriticality": 7,
+        "CreatedBy": "CreatedBy2",
+        "CreatedAt": "1994-02-24T15:51:40",
+        "LastChangedBy": "LastChanged2",
+        "LastChangedAt": "1987-05-07T13:32:47",
+        "LocalLastChangedAt": "1973-01-21T22:13:43",
+        "HasDraftEntity": false,
+        "DraftEntityCreationDateTime": "2006-04-05T01:12:07",
+        "DraftEntityLastChangeDateTime": "1987-08-20T19:01:42",
+        "HasActiveEntity": true,
+        "IsActiveEntity": false,
+        "SAP__Messages": [
+            {
+                "code": "code17",
+                "message": "message17",
+                "target": "target17",
+                "additionalTargets": [
+                    "additionalTargets17"
+                ],
+                "transition": false,
+                "numericSeverity": 225,
+                "longtextUrl": "longtextUrl17"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "d9152274-191a-5a70-acec-88cb1ce4ed8e",
+        "TravelID": "TravelI3",
+        "AgencyID": "Agenc3",
+        "AgencyName": "AgencyName3",
+        "CustomerID": "Custo3",
+        "LastName": "LastName3",
+        "BeginDate": "2013-02-24",
+        "EndDate": "1976-11-03",
+        "BookingFee": 9.345,
+        "TotalPrice": 7.756,
+        "CurrencyCode": "Curr3",
+        "Description": "Description3",
+        "OverallStatus": "3",
+        "TravelStatusText": "TravelStatusText3",
+        "OverallStatusCriticality": 65,
+        "CreatedBy": "CreatedBy3",
+        "CreatedAt": "1972-10-22T06:54:20",
+        "LastChangedBy": "LastChanged3",
+        "LastChangedAt": "2007-02-08T22:52:53",
+        "LocalLastChangedAt": "1996-02-15T17:20:05",
+        "HasDraftEntity": true,
+        "DraftEntityCreationDateTime": "1982-03-19T11:44:32",
+        "DraftEntityLastChangeDateTime": "1998-03-15T09:29:37",
+        "HasActiveEntity": false,
+        "IsActiveEntity": true,
+        "SAP__Messages": [
+            {
+                "code": "code11",
+                "message": "message11",
+                "target": "target11",
+                "additionalTargets": [
+                    "additionalTargets11"
+                ],
+                "transition": true,
+                "numericSeverity": 241,
+                "longtextUrl": "longtextUrl11"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "3fdeda6a-eea6-5775-acc0-266709aa3fbc",
+        "TravelID": "TravelI4",
+        "AgencyID": "Agenc4",
+        "AgencyName": "AgencyName4",
+        "CustomerID": "Custo4",
+        "LastName": "LastName4",
+        "BeginDate": "2009-09-28",
+        "EndDate": "1973-11-08",
+        "BookingFee": 3.959,
+        "TotalPrice": 3.999,
+        "CurrencyCode": "Curr4",
+        "Description": "Description4",
+        "OverallStatus": "4",
+        "TravelStatusText": "TravelStatusText4",
+        "OverallStatusCriticality": 240,
+        "CreatedBy": "CreatedBy4",
+        "CreatedAt": "1978-09-30T13:58:27",
+        "LastChangedBy": "LastChanged4",
+        "LastChangedAt": "1990-09-20T01:15:52",
+        "LocalLastChangedAt": "2015-07-04T03:40:31",
+        "HasDraftEntity": true,
+        "DraftEntityCreationDateTime": "2012-11-15T12:06:06",
+        "DraftEntityLastChangeDateTime": "1977-04-25T21:43:19",
+        "HasActiveEntity": true,
+        "IsActiveEntity": false,
+        "SAP__Messages": [
+            {
+                "code": "code6",
+                "message": "message6",
+                "target": "target6",
+                "additionalTargets": [
+                    "additionalTargets6"
+                ],
+                "transition": false,
+                "numericSeverity": 234,
+                "longtextUrl": "longtextUrl6"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "2517fb3c-6b9c-51dd-bed9-6fc8beb832ba",
+        "TravelID": "TravelI5",
+        "AgencyID": "Agenc5",
+        "AgencyName": "AgencyName5",
+        "CustomerID": "Custo5",
+        "LastName": "LastName5",
+        "BeginDate": "1983-01-05",
+        "EndDate": "2014-03-21",
+        "BookingFee": 4.885,
+        "TotalPrice": 0.6,
+        "CurrencyCode": "Curr5",
+        "Description": "Description5",
+        "OverallStatus": "5",
+        "TravelStatusText": "TravelStatusText5",
+        "OverallStatusCriticality": 40,
+        "CreatedBy": "CreatedBy5",
+        "CreatedAt": "1994-05-02T13:24:19",
+        "LastChangedBy": "LastChanged5",
+        "LastChangedAt": "2004-03-09T01:12:38",
+        "LocalLastChangedAt": "1995-02-20T22:40:16",
+        "HasDraftEntity": true,
+        "DraftEntityCreationDateTime": "1987-08-15T21:22:28",
+        "DraftEntityLastChangeDateTime": "1989-01-16T11:21:02",
+        "HasActiveEntity": true,
+        "IsActiveEntity": false,
+        "SAP__Messages": [
+            {
+                "code": "code1",
+                "message": "message1",
+                "target": "target1",
+                "additionalTargets": [
+                    "additionalTargets1"
+                ],
+                "transition": false,
+                "numericSeverity": 236,
+                "longtextUrl": "longtextUrl1"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "b7ac8973-cb43-5eeb-bbe2-93c8184d3da9",
+        "TravelID": "TravelI6",
+        "AgencyID": "Agenc6",
+        "AgencyName": "AgencyName6",
+        "CustomerID": "Custo6",
+        "LastName": "LastName6",
+        "BeginDate": "1993-12-03",
+        "EndDate": "2009-07-14",
+        "BookingFee": 6.009,
+        "TotalPrice": 13.128,
+        "CurrencyCode": "Curr6",
+        "Description": "Description6",
+        "OverallStatus": "6",
+        "TravelStatusText": "TravelStatusText6",
+        "OverallStatusCriticality": 5,
+        "CreatedBy": "CreatedBy6",
+        "CreatedAt": "2009-05-06T07:47:15",
+        "LastChangedBy": "LastChanged6",
+        "LastChangedAt": "1985-12-13T08:33:23",
+        "LocalLastChangedAt": "1971-12-01T08:51:01",
+        "HasDraftEntity": false,
+        "DraftEntityCreationDateTime": "1986-07-05T14:19:29",
+        "DraftEntityLastChangeDateTime": "1974-03-27T14:25:48",
+        "HasActiveEntity": true,
+        "IsActiveEntity": false,
+        "SAP__Messages": [
+            {
+                "code": "code16",
+                "message": "message16",
+                "target": "target16",
+                "additionalTargets": [
+                    "additionalTargets16"
+                ],
+                "transition": true,
+                "numericSeverity": 203,
+                "longtextUrl": "longtextUrl16"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "9550dc68-6f8b-5bf2-b521-57cca7dc0c95",
+        "TravelID": "TravelI7",
+        "AgencyID": "Agenc7",
+        "AgencyName": "AgencyName7",
+        "CustomerID": "Custo7",
+        "LastName": "LastName7",
+        "BeginDate": "2001-01-26",
+        "EndDate": "1990-01-06",
+        "BookingFee": 3.89,
+        "TotalPrice": 1.085,
+        "CurrencyCode": "Curr7",
+        "Description": "Description7",
+        "OverallStatus": "7",
+        "TravelStatusText": "TravelStatusText7",
+        "OverallStatusCriticality": 52,
+        "CreatedBy": "CreatedBy7",
+        "CreatedAt": "1989-10-25T06:36:48",
+        "LastChangedBy": "LastChanged7",
+        "LastChangedAt": "1976-09-09T14:03:02",
+        "LocalLastChangedAt": "2006-07-24T00:43:40",
+        "HasDraftEntity": false,
+        "DraftEntityCreationDateTime": "2012-12-23T15:40:14",
+        "DraftEntityLastChangeDateTime": "1975-11-22T21:25:50",
+        "HasActiveEntity": true,
+        "IsActiveEntity": false,
+        "SAP__Messages": [
+            {
+                "code": "code8",
+                "message": "message8",
+                "target": "target8",
+                "additionalTargets": [
+                    "additionalTargets8"
+                ],
+                "transition": true,
+                "numericSeverity": 156,
+                "longtextUrl": "longtextUrl8"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "5a854ed8-f97f-51ed-b2ef-516659125a7e",
+        "TravelID": "TravelI8",
+        "AgencyID": "Agenc8",
+        "AgencyName": "AgencyName8",
+        "CustomerID": "Custo8",
+        "LastName": "LastName8",
+        "BeginDate": "2003-12-11",
+        "EndDate": "1994-10-19",
+        "BookingFee": 13.672,
+        "TotalPrice": 5.156,
+        "CurrencyCode": "Curr8",
+        "Description": "Description8",
+        "OverallStatus": "8",
+        "TravelStatusText": "TravelStatusText8",
+        "OverallStatusCriticality": 200,
+        "CreatedBy": "CreatedBy8",
+        "CreatedAt": "1983-01-20T22:04:49",
+        "LastChangedBy": "LastChanged8",
+        "LastChangedAt": "1993-12-01T14:17:13",
+        "LocalLastChangedAt": "1992-03-19T02:53:14",
+        "HasDraftEntity": true,
+        "DraftEntityCreationDateTime": "1985-08-27T00:38:53",
+        "DraftEntityLastChangeDateTime": "1989-11-24T13:39:11",
+        "HasActiveEntity": true,
+        "IsActiveEntity": false,
+        "SAP__Messages": [
+            {
+                "code": "code13",
+                "message": "message13",
+                "target": "target13",
+                "additionalTargets": [
+                    "additionalTargets13"
+                ],
+                "transition": false,
+                "numericSeverity": 123,
+                "longtextUrl": "longtextUrl13"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "cd9dd2a6-fd77-5b0a-82c9-d3e86219fd76",
+        "TravelID": "TravelI9",
+        "AgencyID": "Agenc9",
+        "AgencyName": "AgencyName9",
+        "CustomerID": "Custo9",
+        "LastName": "LastName9",
+        "BeginDate": "1990-11-12",
+        "EndDate": "2007-12-18",
+        "BookingFee": 14.055,
+        "TotalPrice": 9.703,
+        "CurrencyCode": "Curr9",
+        "Description": "Description9",
+        "OverallStatus": "9",
+        "TravelStatusText": "TravelStatusText9",
+        "OverallStatusCriticality": 255,
+        "CreatedBy": "CreatedBy9",
+        "CreatedAt": "2010-11-27T21:54:24",
+        "LastChangedBy": "LastChanged9",
+        "LastChangedAt": "2003-09-27T23:24:20",
+        "LocalLastChangedAt": "1974-02-21T08:46:48",
+        "HasDraftEntity": true,
+        "DraftEntityCreationDateTime": "1982-06-03T00:25:44",
+        "DraftEntityLastChangeDateTime": "1992-11-13T15:13:25",
+        "HasActiveEntity": true,
+        "IsActiveEntity": false,
+        "SAP__Messages": [
+            {
+                "code": "code11",
+                "message": "message11",
+                "target": "target11",
+                "additionalTargets": [
+                    "additionalTargets11"
+                ],
+                "transition": true,
+                "numericSeverity": 241,
+                "longtextUrl": "longtextUrl11"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "80b47b73-cf98-52ad-8fa5-aa713b3f06e3",
+        "TravelID": "Travel10",
+        "AgencyID": "Agen10",
+        "AgencyName": "AgencyName10",
+        "CustomerID": "Cust10",
+        "LastName": "LastName10",
+        "BeginDate": "1984-05-06",
+        "EndDate": "1971-04-03",
+        "BookingFee": 2.049,
+        "TotalPrice": 9.012,
+        "CurrencyCode": "Cur10",
+        "Description": "Description10",
+        "OverallStatus": "0",
+        "TravelStatusText": "TravelStatusText10",
+        "OverallStatusCriticality": 132,
+        "CreatedBy": "CreatedBy10",
+        "CreatedAt": "1991-09-18T08:48:26",
+        "LastChangedBy": "LastChange10",
+        "LastChangedAt": "1996-04-14T10:58:28",
+        "LocalLastChangedAt": "1985-05-31T07:58:52",
+        "HasDraftEntity": true,
+        "DraftEntityCreationDateTime": "1988-07-08T15:25:22",
+        "DraftEntityLastChangeDateTime": "1986-12-26T18:07:18",
+        "HasActiveEntity": false,
+        "IsActiveEntity": true,
+        "SAP__Messages": [
+            {
+                "code": "code9",
+                "message": "message9",
+                "target": "target9",
+                "additionalTargets": [
+                    "additionalTargets9"
+                ],
+                "transition": false,
+                "numericSeverity": 120,
+                "longtextUrl": "longtextUrl9"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "ac3e975b-d8e8-5c33-a264-d2d60bd7e449",
+        "TravelID": "Travel11",
+        "AgencyID": "Agen11",
+        "AgencyName": "AgencyName11",
+        "CustomerID": "Cust11",
+        "LastName": "LastName11",
+        "BeginDate": "2001-06-23",
+        "EndDate": "1970-04-13",
+        "BookingFee": 13.772,
+        "TotalPrice": 7.884,
+        "CurrencyCode": "Cur11",
+        "Description": "Description11",
+        "OverallStatus": "1",
+        "TravelStatusText": "TravelStatusText11",
+        "OverallStatusCriticality": 152,
+        "CreatedBy": "CreatedBy11",
+        "CreatedAt": "2015-06-19T19:12:03",
+        "LastChangedBy": "LastChange11",
+        "LastChangedAt": "2001-08-29T16:53:59",
+        "LocalLastChangedAt": "1987-10-22T03:48:18",
+        "HasDraftEntity": false,
+        "DraftEntityCreationDateTime": "2015-12-23T10:28:16",
+        "DraftEntityLastChangeDateTime": "1998-08-26T19:54:30",
+        "HasActiveEntity": true,
+        "IsActiveEntity": false,
+        "SAP__Messages": [
+            {
+                "code": "code13",
+                "message": "message13",
+                "target": "target13",
+                "additionalTargets": [
+                    "additionalTargets13"
+                ],
+                "transition": false,
+                "numericSeverity": 123,
+                "longtextUrl": "longtextUrl13"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "6955e88d-33ac-5a0f-bd81-10c1f687e92c",
+        "TravelID": "Travel12",
+        "AgencyID": "Agen12",
+        "AgencyName": "AgencyName12",
+        "CustomerID": "Cust12",
+        "LastName": "LastName12",
+        "BeginDate": "2005-06-21",
+        "EndDate": "2015-06-19",
+        "BookingFee": 5.152,
+        "TotalPrice": 4.983,
+        "CurrencyCode": "Cur12",
+        "Description": "Description12",
+        "OverallStatus": "2",
+        "TravelStatusText": "TravelStatusText12",
+        "OverallStatusCriticality": 31,
+        "CreatedBy": "CreatedBy12",
+        "CreatedAt": "1989-05-17T15:09:53",
+        "LastChangedBy": "LastChange12",
+        "LastChangedAt": "1997-09-28T01:56:28",
+        "LocalLastChangedAt": "1985-02-03T12:05:25",
+        "HasDraftEntity": true,
+        "DraftEntityCreationDateTime": "1978-09-03T03:31:21",
+        "DraftEntityLastChangeDateTime": "2011-02-24T01:30:37",
+        "HasActiveEntity": false,
+        "IsActiveEntity": true,
+        "SAP__Messages": [
+            {
+                "code": "code4",
+                "message": "message4",
+                "target": "target4",
+                "additionalTargets": [
+                    "additionalTargets4"
+                ],
+                "transition": true,
+                "numericSeverity": 175,
+                "longtextUrl": "longtextUrl4"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "5cc8311c-7675-5197-a8d1-efb555f0a561",
+        "TravelID": "Travel13",
+        "AgencyID": "Agen13",
+        "AgencyName": "AgencyName13",
+        "CustomerID": "Cust13",
+        "LastName": "LastName13",
+        "BeginDate": "1976-05-07",
+        "EndDate": "1998-09-15",
+        "BookingFee": 8.62,
+        "TotalPrice": 3.252,
+        "CurrencyCode": "Cur13",
+        "Description": "Description13",
+        "OverallStatus": "3",
+        "TravelStatusText": "TravelStatusText13",
+        "OverallStatusCriticality": 163,
+        "CreatedBy": "CreatedBy13",
+        "CreatedAt": "1982-04-13T13:02:08",
+        "LastChangedBy": "LastChange13",
+        "LastChangedAt": "1985-09-10T11:28:39",
+        "LocalLastChangedAt": "1985-12-23T06:34:17",
+        "HasDraftEntity": false,
+        "DraftEntityCreationDateTime": "1975-06-10T16:54:24",
+        "DraftEntityLastChangeDateTime": "1980-03-26T00:02:05",
+        "HasActiveEntity": false,
+        "IsActiveEntity": true,
+        "SAP__Messages": [
+            {
+                "code": "code17",
+                "message": "message17",
+                "target": "target17",
+                "additionalTargets": [
+                    "additionalTargets17"
+                ],
+                "transition": false,
+                "numericSeverity": 225,
+                "longtextUrl": "longtextUrl17"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "6c4c7e34-d907-5cdc-b0c9-e57bf84c254a",
+        "TravelID": "Travel14",
+        "AgencyID": "Agen14",
+        "AgencyName": "AgencyName14",
+        "CustomerID": "Cust14",
+        "LastName": "LastName14",
+        "BeginDate": "2011-07-07",
+        "EndDate": "2009-07-14",
+        "BookingFee": 5.938,
+        "TotalPrice": 3.517,
+        "CurrencyCode": "Cur14",
+        "Description": "Description14",
+        "OverallStatus": "4",
+        "TravelStatusText": "TravelStatusText14",
+        "OverallStatusCriticality": 11,
+        "CreatedBy": "CreatedBy14",
+        "CreatedAt": "1985-11-17T14:56:47",
+        "LastChangedBy": "LastChange14",
+        "LastChangedAt": "1996-02-26T08:33:56",
+        "LocalLastChangedAt": "1982-05-24T20:07:41",
+        "HasDraftEntity": true,
+        "DraftEntityCreationDateTime": "1980-07-13T03:33:30",
+        "DraftEntityLastChangeDateTime": "2013-03-20T01:56:51",
+        "HasActiveEntity": true,
+        "IsActiveEntity": true,
+        "SAP__Messages": [
+            {
+                "code": "code13",
+                "message": "message13",
+                "target": "target13",
+                "additionalTargets": [
+                    "additionalTargets13"
+                ],
+                "transition": false,
+                "numericSeverity": 123,
+                "longtextUrl": "longtextUrl13"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "a04c7f04-216c-5c37-a8ad-5da2737b529b",
+        "TravelID": "Travel15",
+        "AgencyID": "Agen15",
+        "AgencyName": "AgencyName15",
+        "CustomerID": "Cust15",
+        "LastName": "LastName15",
+        "BeginDate": "1993-09-12",
+        "EndDate": "1999-09-18",
+        "BookingFee": 3.849,
+        "TotalPrice": 8.801,
+        "CurrencyCode": "Cur15",
+        "Description": "Description15",
+        "OverallStatus": "5",
+        "TravelStatusText": "TravelStatusText15",
+        "OverallStatusCriticality": 11,
+        "CreatedBy": "CreatedBy15",
+        "CreatedAt": "2009-05-25T18:33:17",
+        "LastChangedBy": "LastChange15",
+        "LastChangedAt": "1973-01-18T03:47:06",
+        "LocalLastChangedAt": "2009-10-30T02:19:53",
+        "HasDraftEntity": false,
+        "DraftEntityCreationDateTime": "1999-12-20T12:16:13",
+        "DraftEntityLastChangeDateTime": "2012-06-03T15:52:02",
+        "HasActiveEntity": false,
+        "IsActiveEntity": true,
+        "SAP__Messages": [
+            {
+                "code": "code2",
+                "message": "message2",
+                "target": "target2",
+                "additionalTargets": [
+                    "additionalTargets2"
+                ],
+                "transition": false,
+                "numericSeverity": 135,
+                "longtextUrl": "longtextUrl2"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "b34a19e1-e71f-5bad-9d06-ae0f474caee8",
+        "TravelID": "Travel16",
+        "AgencyID": "Agen16",
+        "AgencyName": "AgencyName16",
+        "CustomerID": "Cust16",
+        "LastName": "LastName16",
+        "BeginDate": "2008-06-09",
+        "EndDate": "1982-10-15",
+        "BookingFee": 5.952,
+        "TotalPrice": 14.389,
+        "CurrencyCode": "Cur16",
+        "Description": "Description16",
+        "OverallStatus": "6",
+        "TravelStatusText": "TravelStatusText16",
+        "OverallStatusCriticality": 119,
+        "CreatedBy": "CreatedBy16",
+        "CreatedAt": "2008-02-15T04:39:05",
+        "LastChangedBy": "LastChange16",
+        "LastChangedAt": "1998-08-11T21:44:55",
+        "LocalLastChangedAt": "1980-09-24T07:48:48",
+        "HasDraftEntity": true,
+        "DraftEntityCreationDateTime": "1995-09-16T20:46:02",
+        "DraftEntityLastChangeDateTime": "2014-10-23T22:24:40",
+        "HasActiveEntity": false,
+        "IsActiveEntity": true,
+        "SAP__Messages": [
+            {
+                "code": "code4",
+                "message": "message4",
+                "target": "target4",
+                "additionalTargets": [
+                    "additionalTargets4"
+                ],
+                "transition": true,
+                "numericSeverity": 175,
+                "longtextUrl": "longtextUrl4"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "0a13a605-abad-53bc-b770-a99a02532c5c",
+        "TravelID": "Travel17",
+        "AgencyID": "Agen17",
+        "AgencyName": "AgencyName17",
+        "CustomerID": "Cust17",
+        "LastName": "LastName17",
+        "BeginDate": "1970-10-03",
+        "EndDate": "1985-07-25",
+        "BookingFee": 12.347,
+        "TotalPrice": 8.094,
+        "CurrencyCode": "Cur17",
+        "Description": "Description17",
+        "OverallStatus": "7",
+        "TravelStatusText": "TravelStatusText17",
+        "OverallStatusCriticality": 21,
+        "CreatedBy": "CreatedBy17",
+        "CreatedAt": "2010-05-03T08:34:41",
+        "LastChangedBy": "LastChange17",
+        "LastChangedAt": "1996-09-16T13:26:14",
+        "LocalLastChangedAt": "2013-10-17T00:11:11",
+        "HasDraftEntity": true,
+        "DraftEntityCreationDateTime": "1997-08-06T07:02:44",
+        "DraftEntityLastChangeDateTime": "2013-03-22T00:38:49",
+        "HasActiveEntity": true,
+        "IsActiveEntity": true,
+        "SAP__Messages": [
+            {
+                "code": "code7",
+                "message": "message7",
+                "target": "target7",
+                "additionalTargets": [
+                    "additionalTargets7"
+                ],
+                "transition": false,
+                "numericSeverity": 56,
+                "longtextUrl": "longtextUrl7"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "cf67609e-407a-5737-8d58-e2b279ec7374",
+        "TravelID": "Travel18",
+        "AgencyID": "Agen18",
+        "AgencyName": "AgencyName18",
+        "CustomerID": "Cust18",
+        "LastName": "LastName18",
+        "BeginDate": "2004-09-05",
+        "EndDate": "2013-06-13",
+        "BookingFee": 11.425,
+        "TotalPrice": 2.006,
+        "CurrencyCode": "Cur18",
+        "Description": "Description18",
+        "OverallStatus": "8",
+        "TravelStatusText": "TravelStatusText18",
+        "OverallStatusCriticality": 164,
+        "CreatedBy": "CreatedBy18",
+        "CreatedAt": "1986-09-11T06:20:56",
+        "LastChangedBy": "LastChange18",
+        "LastChangedAt": "1970-01-05T16:08:44",
+        "LocalLastChangedAt": "1981-06-26T11:45:49",
+        "HasDraftEntity": true,
+        "DraftEntityCreationDateTime": "1992-10-20T04:15:38",
+        "DraftEntityLastChangeDateTime": "1971-07-15T16:17:03",
+        "HasActiveEntity": true,
+        "IsActiveEntity": false,
+        "SAP__Messages": [
+            {
+                "code": "code14",
+                "message": "message14",
+                "target": "target14",
+                "additionalTargets": [
+                    "additionalTargets14"
+                ],
+                "transition": true,
+                "numericSeverity": 134,
+                "longtextUrl": "longtextUrl14"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "77fece6e-5b45-5fda-9246-7608fabd1404",
+        "TravelID": "Travel19",
+        "AgencyID": "Agen19",
+        "AgencyName": "AgencyName19",
+        "CustomerID": "Cust19",
+        "LastName": "LastName19",
+        "BeginDate": "1998-07-11",
+        "EndDate": "1979-10-20",
+        "BookingFee": 9.497,
+        "TotalPrice": 3.045,
+        "CurrencyCode": "Cur19",
+        "Description": "Description19",
+        "OverallStatus": "9",
+        "TravelStatusText": "TravelStatusText19",
+        "OverallStatusCriticality": 227,
+        "CreatedBy": "CreatedBy19",
+        "CreatedAt": "2006-03-08T06:57:12",
+        "LastChangedBy": "LastChange19",
+        "LastChangedAt": "2013-03-18T11:46:13",
+        "LocalLastChangedAt": "1990-12-04T06:54:18",
+        "HasDraftEntity": false,
+        "DraftEntityCreationDateTime": "1980-10-05T13:05:07",
+        "DraftEntityLastChangeDateTime": "1974-06-21T18:33:29",
+        "HasActiveEntity": false,
+        "IsActiveEntity": true,
+        "SAP__Messages": [
+            {
+                "code": "code9",
+                "message": "message9",
+                "target": "target9",
+                "additionalTargets": [
+                    "additionalTargets9"
+                ],
+                "transition": false,
+                "numericSeverity": 120,
+                "longtextUrl": "longtextUrl9"
+            }
+        ]
+    },
+    {
+        "TravelUUID": "734e0412-29ad-5d25-893a-8b251746ea05",
+        "TravelID": "Travel20",
+        "AgencyID": "Agen20",
+        "AgencyName": "AgencyName20",
+        "CustomerID": "Cust20",
+        "LastName": "LastName20",
+        "BeginDate": "1982-11-14",
+        "EndDate": "2006-07-14",
+        "BookingFee": 6.315,
+        "TotalPrice": 13.437,
+        "CurrencyCode": "Cur20",
+        "Description": "Description20",
+        "OverallStatus": "0",
+        "TravelStatusText": "TravelStatusText20",
+        "OverallStatusCriticality": 139,
+        "CreatedBy": "CreatedBy20",
+        "CreatedAt": "1999-06-15T06:43:23",
+        "LastChangedBy": "LastChange20",
+        "LastChangedAt": "1977-05-21T17:07:59",
+        "LocalLastChangedAt": "1975-02-18T10:46:04",
+        "HasDraftEntity": false,
+        "DraftEntityCreationDateTime": "2010-11-02T04:09:08",
+        "DraftEntityLastChangeDateTime": "1975-08-26T02:53:15",
+        "HasActiveEntity": true,
+        "IsActiveEntity": true,
+        "SAP__Messages": [
+            {
+                "code": "code7",
+                "message": "message7",
+                "target": "target7",
+                "additionalTargets": [
+                    "additionalTargets7"
+                ],
+                "transition": false,
+                "numericSeverity": 56,
+                "longtextUrl": "longtextUrl7"
+            }
+        ]
+    }
+]
