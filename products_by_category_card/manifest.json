@@ -34,19 +34,46 @@
                             },
                             "maxItems": {
                                 "value": 4
-                              		}
-           		 	    }
+                              		},
+								"selectedCategoryName": {
+                						"value": "Computer Systems"
+            						}
+           		 	    		},
+						"filters": {
+									"mainCategory": {
+										"value": "{{parameters.selectedCategoryName}}",
+										"type": "string",
+										"label": "Main Category",
+										"description": "Filter products by main category.",
+										"item": {
+											"path": "/d/results",
+											"template": {
+												"key": "{Id}",
+												"title": "{Name}"
+											}
+										},
+										"data": {
+											"request": {
+												"url": "{{destinations.ES5}}/sap/opu/odata/sap/EPM_REF_APPS_SHOP_SRV/MainCategories",
+												"withCredentials": true
+											}
+										}
+									}
+        						}
                     },
 		"data": {
-					"request": {
+			"request": {
 				"url": "{{destinations.ES5}}/sap/opu/odata/sap/EPM_REF_APPS_SHOP_SRV/Products",
+				"parameters": {
+		                "$filter": "MainCategoryName eq '{filters>/mainCategory/value}'"
+	                },
 				"withCredentials": true
-								},
-								"path": "/d/results"
-				},
+			},
+			"path": "/d/results"
+		},
         "designtime": "dt/configuration",
 		"header": {
-			"title": "{{parameters.title}}",
+			"title": "Products filtered by {filters>/mainCategory/selectedItem/title} category",
 			"subTitle": "{{parameters.subTitle}}",
 			"icon": {
 				"src": "sap-icon://desktop-mobile"
