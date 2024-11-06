@@ -1,32 +1,19 @@
 {
+	"sample-role1": {
+		"type": "role",
+		"src": {
+		  "from": "./demo/src",
+		  "content": "role.json"
+			}
+		  },
 	"card-sample": {
 		"type": "card",
 		"src": {
-			"from": "./internalsamples/card",
-			"path": "./",
-			"build": "",
-			"package": "sap-workzone-cpkg-card-sample.zip",
-			"manifest": "src/manifest.json"
-		}
-	},
-	"workflow-sample": {
-		"type": "workflow",
-		"src": {
-			"from": "./internalsamples/workflow",
-			"path": "./",
-			"build": "",
-			"package": "sap-workzone-cpkg-workflow-sample.zip",
-			"manifest": "src/manifest.json"
-		}
-	},
-	"workspace-sample": {
-		"type": "workspace-template",
-		"src": {
-			"from": "./internalsamples/workspace-template",
-			"path": "./",
-			"build": "",
-			"package": "sap-workzone-cpkg-workspace-template-sample.zip",
-			"manifest": "src/manifest.json"
-		}
+		  "from": "./demo/src",
+		  "path": "./",
+		  "build": "",
+		  "package": "",
+		  "manifest": "src/manifest.json"
+		  }
 	}
-}
+  }

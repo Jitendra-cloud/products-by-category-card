@@ -1,0 +1,13 @@
+{
+	"_version": "1.27.0",
+	"_generator": "cpkg-project-template",
+	"sap.artifact": {
+		"id": "ns.products_by_category_card",
+		"type": "card",
+		"title": "Products by Category Card",
+		"subTitle": "UI5 Integration Card of Type List",
+		"artifactVersion": {
+			"version": "1.0.0"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "_version": "3.2.0",
+    "identification": {
+      "id": "ns.cp_erp_ns.mycontentpackage.sm",
+      "title": "ContentPackageRole",
+      "entityType": "role"
+    },
+    "payload": {
+      "apps": [
+        {
+          "id": "ns.products_by_category_card.app"
+        }
+      ]
+    }
+  }
+  
