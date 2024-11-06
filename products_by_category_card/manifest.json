@@ -18,52 +18,57 @@
 	},
 	"sap.card": {
 		"type": "List",
+		"configuration": {
+                        "destinations": {
+                            "ES5": {
+                                "name": "ES5",
+                               "defaultUrl": "/sap/opu/odata/sap/EPM_REF_APPS_SHOP_SRV/"
+                            }
+                        },
+						"parameters": {
+                            "title" : {
+                                "value": "List Card with Top {{parameters.maxItems}} Products"
+                            },
+                            "subTitle": {
+                                "value": "These are the top sellers this month"
+                            },
+                            "maxItems": {
+                                "value": 4
+                              		}
+           		 	    }
+                    },
+		"data": {
+					"request": {
+				"url": "{{destinations.ES5}}/sap/opu/odata/sap/EPM_REF_APPS_SHOP_SRV/Products",
+				"withCredentials": true
+								},
+								"path": "/d/results"
+				},
         "designtime": "dt/configuration",
 		"header": {
-			"title": "List Card with Top 5 Products",
-			"subTitle": "These are the top sellers this month",
+			"title": "{{parameters.title}}",
+			"subTitle": "{{parameters.subTitle}}",
 			"icon": {
 				"src": "sap-icon://desktop-mobile"
 			},
 			"status": {
-				"text": "5 of 20"
+				"text": "{{parameters.maxItems}} of 20"
 			}
 		},
 		"content": {
-			"data": {
-				"json": [{
-						"Name": "Comfort Easy",
-						"Description": "32 GB Digital Assistant with high-resolution color screen",
-						"Highlight": "Error"
-					},
-					{
-						"Name": "ITelO Vault",
-						"Description": "Digital Organizer with State-of-the-Art Storage Encryption",
-						"Highlight": "Warning"
-					},
-					{
-						"Name": "Notebook Professional 15",
-						"Description": "Notebook Professional 15 with 2,80 GHz quad core, 15\" Multitouch LCD, 8 GB DDR3 RAM, 500 GB SSD - DVD-Writer (DVD-R/+R/-RW/-RAM),Windows 8 Pro",
-						"Highlight": "Success"
-					},
-					{
-						"Name": "Ergo Screen E-I",
-						"Description": "Optimum Hi-Resolution max. 1920 x 1080 @ 85Hz, Dot Pitch: 0.27mm",
-						"Highlight": "Information"
-					},
-					{
-						"Name": "Laser Professional Eco",
-						"Description": "Print 2400 dpi image quality color documents at speeds of up to 32 ppm (color) or 36 ppm (monochrome), letter/A4. Powerful 500 MHz processor, 512MB of memory",
-						"Highlight": "None"
-					}
-				]
-			},
-			"item": {
-				"title": "{Name}",
-				"description": "{Description}",
-				"highlight": "{Highlight}"
-			}
-		}
+            "item": {
+                "title": "{Name}",
+                "description": "{Description}",
+                "icon": {
+                    "src": "{ImageUrl}"
+                },
+                "info": {
+                    "value": "{AverageRating}",
+                    "state": "{= ${AverageRating} > 3.5 ? 'Success' : 'Warning' }"
+                }
+            },
+            "maxItems": "{{parameters.maxItems}}"
+        }
 	},
     "sap.platform.mobilecards": {
         "compatible": false
